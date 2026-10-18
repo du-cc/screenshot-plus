@@ -53,12 +53,12 @@ Recording Tab
 
 <img src="docs/recording.png" width="300" alt="Recording Tab">
 
-1000 nits test [Youtube](https://www.youtube.com/watch?v=TlmD_-Hwzp8)
+1000 nits test. Credit: [Youtube](https://www.youtube.com/watch?v=TlmD_-Hwzp8)
 
 Image (Ultra HDR, Chromium based browsers only)
 <img src="docs/1000nits.jpg" width="650" alt="1000 nits dots">
 
-[![Video](docs/1000nits.jpg)](docs/1000nits.mp4)
+[Video (raw)](docs/1000nits.mp4), [Youtube](https://youtu.be/WyVxgeCQhj0)
 
 
 
