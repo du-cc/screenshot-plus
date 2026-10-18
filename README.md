@@ -2,6 +2,8 @@
 
 An extension for GNOME screenshot and screen record.
 
+One of [GNOME QoL](https://github.com/du-cc/GNOME-QoL) collections.
+
 > [!NOTE]
 >
 > This app is **completely** generated from AI and is **only** intended for me. Tested on Fedora, Gnome, Wayland only. I won't add support for **any file managers**, **any window manager**, **any display server**.
