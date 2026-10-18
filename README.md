@@ -35,6 +35,9 @@ Read all Claude findings here: [readme-claude.md](./readme-claude.md)
 - Record sounds: System, Mic, Both, None
 
 ### HDR support
+> [!NOTE]
+>
+> HDR is super unstable. Not cross compatible for images (gain maps, sdr/hdr base image), causes video to slutter for videos (unstable fps). I had turned them off, and plan to remove those features in the future.
 
 - Screenshot: Ultra HDR(Google Photos), PNG 16-bit PQ, AVIF with gain map
 - Recording: BT.2020, PQ (except H264)
@@ -73,9 +76,7 @@ gnome-extensions install screenshot-plus-main.zip [--force]
 
 Everything. I only prompt and test bugs.
 
-## Known issues
+## Known issues (all HDR related, won't fix)
 - HDR causes stutter and unstable fps in recording.
-
-## Todo
-- Add HDR support for window capture mode
-- Blur glitch in Ultra HDR
+- Blur glitch in Ultra HDR screenshots
+- Window capture mode doesn't do HDR captures.
