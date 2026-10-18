@@ -51,7 +51,17 @@ Screenshots Tab
 
 Recording Tab
 
-<img src="docs/recording.png" width="300" alt="Screenshots Tab">
+<img src="docs/recording.png" width="300" alt="Recording Tab">
+
+1000 nits test [Youtube](https://www.youtube.com/watch?v=TlmD_-Hwzp8)
+
+<img src="docs/1000nits.jpg" width="650" alt="1000 nits dots">
+
+<video width="640" height="360" controls>
+  <source src="docs/1000nits.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Installation
 Download [this repo](https://github.com/du-cc/screenshot-plus/archive/refs/heads/main.zip) as zip and run:
