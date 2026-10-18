@@ -55,12 +55,11 @@ Recording Tab
 
 1000 nits test [Youtube](https://www.youtube.com/watch?v=TlmD_-Hwzp8)
 
+Image (Ultra HDR, Chromium based browsers only)
 <img src="docs/1000nits.jpg" width="650" alt="1000 nits dots">
 
-<video width="640" height="360" controls>
-  <source src="docs/1000nits.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video](docs/1000nits.jpg)](docs/1000nits.mp4)
+
 
 
 ## Installation
