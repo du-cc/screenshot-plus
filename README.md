@@ -73,6 +73,8 @@ gnome-extensions install screenshot-plus-main.zip [--force]
 
 Everything. I only prompt and test bugs.
 
+## Known issues
+- HDR causes stutter and unstable fps in recording.
 
 ## Todo
 - Add HDR support for window capture mode
