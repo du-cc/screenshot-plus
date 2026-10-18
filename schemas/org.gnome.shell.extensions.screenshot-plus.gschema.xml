@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.screenshot-plus" path="/org/gnome/shell/extensions/screenshot-plus/">
+
+    <!-- Files -->
+    <key name="folder" type="s">
+      <default>''</default>
+      <summary>Screenshots folder ('' = Pictures/Screenshots)</summary>
+    </key>
+    <key name="recording-folder" type="s">
+      <default>''</default>
+      <summary>Recordings folder ('' = same as screenshots)</summary>
+    </key>
+    <key name="subfolder" type="s">
+      <default>'%y-%mo'</default>
+      <summary>Subfolder pattern</summary>
+    </key>
+    <key name="name-pattern" type="s">
+      <default>'%ra{10}'</default>
+      <summary>File name pattern</summary>
+    </key>
+    <key name="name-pattern-app" type="s">
+      <default>'%pn_%ra{10}'</default>
+      <summary>File name pattern when the app is known</summary>
+    </key>
+    <key name="counter" type="i">
+      <default>1</default>
+      <summary>Next value of %i</summary>
+    </key>
+
+    <!-- Screenshots -->
+    <key name="image-format" type="s">
+      <choices>
+        <choice value="png"/>
+        <choice value="jpeg"/>
+        <choice value="webp"/>
+        <choice value="avif"/>
+      </choices>
+      <default>'png'</default>
+      <summary>Image format</summary>
+    </key>
+    <key name="image-quality" type="i">
+      <range min="1" max="100"/>
+      <default>90</default>
+      <summary>JPEG/WebP/AVIF quality</summary>
+    </key>
+    <key name="image-scale" type="i">
+      <range min="0" max="100"/>
+      <default>100</default>
+      <summary>Image size in percent (0 = logical size, undoing display scaling)</summary>
+    </key>
+    <key name="hdr" type="b">
+      <default>false</default>
+      <summary>Save HDR screenshots while the screen is in HDR mode</summary>
+    </key>
+    <key name="hdr-format" type="s">
+      <choices>
+        <choice value="avif"/>
+        <choice value="jpeg"/>
+        <choice value="png"/>
+      </choices>
+      <default>'avif'</default>
+      <summary>HDR file format (avif = PQ with gain map, jpeg = Ultra HDR)</summary>
+    </key>
+    <key name="copy-to-clipboard" type="b">
+      <default>true</default>
+      <summary>Copy screenshots to the clipboard</summary>
+    </key>
+    <key name="show-notification" type="b">
+      <default>true</default>
+      <summary>Show a notification after a screenshot</summary>
+    </key>
+    <key name="play-sound" type="b">
+      <default>true</default>
+      <summary>Play the camera sound</summary>
+    </key>
+
+    <!-- Recordings -->
+    <key name="video-format" type="s">
+      <choices>
+        <choice value="mp4-h264"/>
+        <choice value="mp4-hevc"/>
+        <choice value="mp4-av1"/>
+        <choice value="webm-vp9"/>
+      </choices>
+      <default>'mp4-h264'</default>
+      <summary>Recording format</summary>
+    </key>
+    <key name="video-encoder" type="s">
+      <choices>
+        <choice value="auto"/>
+        <choice value="hardware"/>
+        <choice value="software"/>
+      </choices>
+      <default>'auto'</default>
+      <summary>Encoder</summary>
+    </key>
+    <key name="video-fps" type="i">
+      <range min="1" max="240"/>
+      <default>60</default>
+      <summary>Frame rate</summary>
+    </key>
+    <key name="video-resolution" type="i">
+      <range min="0" max="4320"/>
+      <default>0</default>
+      <summary>Maximum height in pixels (0 = native)</summary>
+    </key>
+    <key name="video-bitrate" type="i">
+      <range min="0" max="500"/>
+      <default>0</default>
+      <summary>Bitrate in Mbit/s (0 = automatic)</summary>
+    </key>
+    <key name="video-hdr" type="b">
+      <default>false</default>
+      <summary>Record HDR while the screen is in HDR mode</summary>
+    </key>
+    <key name="video-audio" type="s">
+      <choices>
+        <choice value="none"/>
+        <choice value="desktop"/>
+        <choice value="mic"/>
+        <choice value="both"/>
+      </choices>
+      <default>'none'</default>
+      <summary>Audio to record</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,14 @@
+{
+  "uuid": "screenshot-plus@ducc",
+  "name": "Screenshot Plus",
+  "description": "GNOME's screenshot and screen recording tool with ShareX-style folders and names (Screenshots/2026-10/brave_x8Kd02LmQx.png), plus format, size, HDR, frame rate, codec, bitrate and audio options.",
+  "shell-version": [
+    "50"
+  ],
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.screenshot-plus",
+  "version-name": "1.0-hdr7"
+}
